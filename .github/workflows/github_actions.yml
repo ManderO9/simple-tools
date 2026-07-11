@@ -24,6 +24,9 @@ jobs:
     - name: build 
       run: npm run build
 
+    - name: create 404.html file 
+      run: cp dist/index.html dist/404.html
+
     - name: Commit dist to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:

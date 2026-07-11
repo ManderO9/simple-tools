@@ -37,8 +37,7 @@ const navbarOpen = ref(false);
     </div>
   </nav>
 
-
-  <main>
+  <main class="container py-6 px-5">
     <RouterView />
   </main>
 </template>
